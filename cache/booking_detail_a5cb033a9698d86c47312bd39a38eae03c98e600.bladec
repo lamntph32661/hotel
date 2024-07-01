@@ -1,0 +1,96 @@
+
+<section class="banner-tems text-center">
+ <div class="container">
+ <div class="banner-content">
+ <h2>LIST BOOKING</h2>
+ 
+ </div>
+ </div>
+</section>
+<!-- ROOM DETAIL -->
+<section class="body-room-6">
+ <div class="container">
+
+ <a href="/listbook" style="margin-bottom: 60px"><--Danh sách</a>
+ <div class="" style="height: 40px"></div>
+ <form class="ml-5" action="/viewbooking/update/<?php echo \htmlentities($booking[0]->ID??'', ENT_QUOTES, 'UTF-8', false); ?>" method="POST" enctype="multipart/form-data">
+ <div class="card-body">
+ <?php echo \htmlentities($message??''??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ <div class="form-group">
+ <label for="danhmuc">Full Name</label>
+ <input type="text" class="form-control" value="<?php echo \htmlentities($booking[0]->FullName??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="FullName" >
+ <p style="color: red"><?php echo \htmlentities($checkData['FullName']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Phone Number</label>
+ <input type="text" class="form-control"  value="<?php echo \htmlentities($booking[0]->PhoneNumber??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="PhoneNumber" >
+ <p style="color: red"><?php echo \htmlentities($checkData['PhoneNumber']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Image</label>
+ 
+ 
+ <?php /* <p style="color: red"><?php echo \htmlentities($checkData['Image']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p> */ ?>
+ <img src="/uploads/<?php echo \htmlentities($booking[0]->Image??'', ENT_QUOTES, 'UTF-8', false); ?>" alt="" height="100px">
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Room Number</label>
+ <input type="text" class="form-control" disabled value="<?php echo \htmlentities($booking[0]->RoomNumber??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Room Type</label>
+ <input type="text" class="form-control" disabled value="<?php echo \htmlentities($booking[0]->Name??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Booking Date</label>
+ <input type="text" class="form-control" disabled value="<?php echo \htmlentities($booking[0]->BookingDate??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Check-in Date</label>
+ <input type="text" class="form-control" disabled value="<?php echo \htmlentities($booking[0]->CheckInDate??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Check-out Date</label>
+ <input type="text" class="form-control" disabled value="<?php echo \htmlentities($booking[0]->CheckOutDate??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <div class="form-group">
+ <label for="danhmuc">Total Amount</label>
+ <input type="text" class="form-control"  disabled value="<?php echo \htmlentities($booking[0]->TotalAmount??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ </div>
+ <?php if($booking[0]->BookingStatus=='Chờ xác nhận'): ?>
+ <div class="form-group">
+ <label for="danhmuc">Booking Status</label>
+ <select name="BookingStatus" id=""  class="form-control">
+ <option value="Đã hủy">Hủy</option>
+ <option value="<?php echo \htmlentities($booking[0]->BookingStatus??'', ENT_QUOTES, 'UTF-8', false); ?>" selected><?php echo \htmlentities($booking[0]->BookingStatus??'', ENT_QUOTES, 'UTF-8', false); ?></option>
+ </select>
+ </div>
+ <div class="card-footer">
+ <input type="submit" class="btn btn-primary"  value="Submit">
+ <input class="btn btn-secondary" type="reset" value="Nhập lại">
+ 
+ </div>
+ <?php else: ?>
+ <div class="form-group">
+ <label for="danhmuc">Total Amount</label>
+ <input type="text" class="form-control" disabled value="<?php echo \htmlentities($booking[0]->BookingStatus??'', ENT_QUOTES, 'UTF-8', false); ?>"  placeholder="Nhập loại phòng" name="Name" >
+ <p style="color: red"><?php echo \htmlentities($checkData['Name']??''??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+ 
+ </div>
+ <?php endif; ?>
+ 
+ </form>
+ <?php
+ ?>
+
+
+</div>
+</section>
+ 

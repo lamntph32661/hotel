@@ -1,0 +1,122 @@
+<section class="banner-tems text-center">
+ <div class="container">
+ <div class="banner-content">
+ <h2>LIST BOOKING</h2>
+ 
+ </div>
+ </div>
+</section>
+<!-- ROOM DETAIL -->
+<section class="body-room-6">
+ <div class="container">
+ <a href="/listbookhistory" style="margin-bottom: 60px">Lịch sử đặt phòng</a>
+ <div class="" style="height: 40px"></div>
+ <table class="table table-head-fixed text-nowrap">
+ <thead>
+ <tr>
+ <th>Full Name</th>
+ <th>Phone Number</th>
+ <th>Room Number</th>
+ <th>Room Type</th>
+ <th>Booking Date</th>
+ <th>Check-in Date</th>
+ <th>Check-out Date</th>
+ <th>Total Amount</th>
+ <th>Status</th>
+ </tr>
+ </thead>
+ <tbody>
+ <?php $__currentLoopData = $list; $this->addLoop($__currentLoopData);$this->getFirstLoop();
+ foreach($__currentLoopData as $item): $loop = $this->incrementLoopIndices();  ?>
+ <tr>
+ <td><?php echo \htmlentities($item->FullName??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->PhoneNumber??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->RoomNumber??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->Name??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->BookingDate??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->CheckInDate??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->CheckOutDate??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->TotalAmount??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><?php echo \htmlentities($item->BookingStatus??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td><a href="/viewbooking/<?php echo \htmlentities($item->ID??'', ENT_QUOTES, 'UTF-8', false); ?>" class="btn btn-primary">View</a></td>
+ </tr>
+ <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
+ </tbody>
+ </table>
+ 
+ <?php /* <div class="wrap-room-6">
+ <?php $__currentLoopData = $detail; $this->addLoop($__currentLoopData);$this->getFirstLoop();
+ foreach($__currentLoopData as $item): $loop = $this->incrementLoopIndices();  ?>
+ <div class="wrap-item ">
+ <div class="img">
+ <img src="/uploads/<?php echo \htmlentities($item->Image??'', ENT_QUOTES, 'UTF-8', false); ?>" style="width: 1170px; height: 400px;" alt="#">
+ </div>
+ <div class="text">
+ <h2 class="h2-rooms"><?php echo \htmlentities($item->Name??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+ <h5 class="h5-room">Start form $<?php echo \htmlentities($item->PricePerNight??'', ENT_QUOTES, 'UTF-8', false); ?> per day</h5>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+ <ul>
+ <li>Max Person <?php echo \htmlentities($item->MaxPerson??'', ENT_QUOTES, 'UTF-8', false); ?>(s)</li>
+ <li>Size: 35 m2 / 376 ft2</li>
+ <li>Bed: <?php echo \htmlentities($item->TypeBed??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+ <li>Extensions: <?php echo \htmlentities($item->Extensions??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+ </ul>
+ <a href="/room/detail/<?php echo \htmlentities($item->id??'', ENT_QUOTES, 'UTF-8', false); ?>" class="view-dateails btn btn-room">VIEW DETAILS</a>
+ </div>
+ </div>
+ <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
+ 
+ <div class="wrap-item ">
+ <div class="img">
+ <img src="/app/views/client/landing.engotheme.com/images/Room/room-35.jpg" alt="#">
+ </div>
+ <div class="text-1">
+ <h2 class="h2-rooms">FAMILY ROOM</h2>
+ <h5 class="h5-room">Start form $120 per day</h5>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+ <ul>
+ <li>Max: 4 Person(s)</li>
+ <li>View: Ocean</li>
+ <li>Size: 35 m2 / 376 ft2</li>
+ <li>Bed: King-size or twin beds</li>
+ </ul>
+ <a href="/room/detail" class="view-dateails btn btn-room">VIEW DETAILS</a>
+ </div>
+ </div>
+ <div class="wrap-item ">
+ <div class="img">
+ <img src="/app/views/client/landing.engotheme.com/images/Room/room-36.jpg" alt="#">
+ </div>
+ <div class="text">
+ <h2 class="h2-rooms">COUPLE ROOM</h2>
+ <h5 class="h5-room">Start form $120 per day</h5>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+ <ul>
+ <li>Max: 4 Person(s)</li>
+ <li>Size: 35 m2 / 376 ft2</li>
+ <li>View: Ocean</li>
+ <li>Bed: King-size or twin beds</li>
+ </ul>
+ <a href="/room/detail" class="view-dateails btn btn-room">VIEW DETAILS</a>
+ </div>
+ </div>
+ <div class="wrap-item ">
+ <div class="img">
+ <img src="/app/views/client/landing.engotheme.com/images/Room/room-37.jpg" alt="#">
+ </div>
+ <div class="text-1">
+ <h2 class="h2-rooms">STANDARD ROOM</h2>
+ <h5 class="h5-room">Start form $120 per day</h5>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+ <ul>
+ <li>Max: 4 Person(s)</li>
+ <li>View: Ocean</li>
+ <li>Size: 35 m2 / 376 ft2</li>
+ <li>Bed: King-size or twin beds</li>
+ </ul>
+ <a href="/room/detail" class="view-dateails btn btn-room">VIEW DETAILS</a>
+ </div>
+ </div>
+ </div> */ ?>
+ </div>
+</section>

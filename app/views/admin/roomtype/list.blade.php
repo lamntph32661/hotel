@@ -44,7 +44,7 @@
                         <td>{{$item->PricePerNight}}</td>
                         <td>{{$item->Extensions}}</td>
 
-                        <td><a href="/admin/room/type/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> <a href="/admin/room/type/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
+                        <td><a href="/Admin/room/type/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> <a href="/Admin/room/type/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
                         </tr>
                         @endforeach
                       </tbody>
@@ -59,6 +59,6 @@
                   <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-              </div><a href="/admin/room/type/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
+              </div><a href="/Admin/room/type/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
             </div>
             <!-- /.row --></nav>

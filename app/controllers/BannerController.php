@@ -9,13 +9,13 @@ final class BannerController extends BaseController
     function listBanner($message)  {
         $list=BannerModel::all();
         
-        return $this->render('admin\banner\list',compact('list','message'));
+        return $this->render('Admin\banner\list',compact('list','message'));
     }
     function renderListBanner($message='')  {
         return $this->templateRenderAdmin('listBanner',[$message]);
     }
     function addBanner($data=[],$checkData=[])  {
-        return $this->render('admin\banner\add',compact('data','checkData'));
+        return $this->render('Admin\banner\add',compact('data','checkData'));
     }
     function renderAddBanner($data=[],$checkData=[]) {
         return $this->templateRenderAdmin('addBanner',[$data,$checkData]);
@@ -41,7 +41,7 @@ final class BannerController extends BaseController
     }
     function updateBanner($id,$data=[],$checkData=[])  {
         $banner=BannerModel::find($id);
-        return $this->render('admin\banner\update',compact('banner','data','checkData','id'));
+        return $this->render('Admin\banner\update',compact('banner','data','checkData','id'));
     }
     function renderUpdateBanner($id,$data=[],$checkData=[]) {
         return $this->templateRenderAdmin('updateBanner',[$id,$data,$checkData]);

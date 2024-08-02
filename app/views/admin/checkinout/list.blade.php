@@ -58,6 +58,6 @@
                   <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-              </div><a href="/admin/room/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
+              </div><a href="/Admin/room/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
             </div>
             <!-- /.row --></nav>

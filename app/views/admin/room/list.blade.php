@@ -56,8 +56,8 @@
                           ?>
                         </td>
 
-                        <td><a href="/admin/room/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> 
-                          <a href="/admin/room/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
+                        <td><a href="/Admin/room/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> 
+                          <a href="/Admin/room/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
                         </tr>
                         @endforeach
                       </tbody>
@@ -72,6 +72,6 @@
                   <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-              </div><a href="/admin/room/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
+              </div><a href="/Admin/room/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
             </div>
             <!-- /.row --></nav>

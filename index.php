@@ -3,7 +3,7 @@ session_start();
 if (!isset($_SESSION['room'])) {
     $_SESSION['room']=array();
 }
-// include "app/Views/admins/header.blade.php";
+// include "app/Views/Admins/header.blade.php";
 
 use App\Controllers\BannerController;
 use App\Controllers\BookController;
@@ -48,7 +48,7 @@ $router->get("logout", [HomeController::class, 'logout']);
 
 $router->post("login/check", [HomeController::class, 'checkLogin']);
 
-$router->group(['prefix' => 'admin'], function () use ($router) {
+$router->group(['prefix' => 'Admin'], function () use ($router) {
     $router->get('/', [HomeController::class, 'renderHomeAdmin']);
     $router->get('room', [RoomController::class, 'renderList']);
     $router->get('room/add', [RoomController::class, 'renderAddForm']);
@@ -101,7 +101,7 @@ try {
     echo "404 file not found";
 }
 
-// include "app/Views/admins/footer.blade.php";
+// include "app/Views/Admins/footer.blade.php";
 
 
 // $products = ProductModel::all();

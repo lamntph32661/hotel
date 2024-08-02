@@ -45,7 +45,7 @@
                         <td>{{$item->Address}}</td>
                         <td>{{$item->Roles}}</td>
                         <td>
-                          <a href="/admin/user/delete/{{$item->ID}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
+                          <a href="/Admin/user/delete/{{$item->ID}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
                         </tr>
                         @endforeach
                       </tbody>
@@ -60,6 +60,6 @@
                   <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-              </div><a href="/admin/room/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
+              </div><a href="/Admin/room/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
             </div>
             <!-- /.row --></nav>

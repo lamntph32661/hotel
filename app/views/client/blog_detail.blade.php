@@ -17,7 +17,7 @@
                         <article class="post post-single">
                             <div class="entry-media ">
                                 <a href="#" title="" class="hover-zoom-1">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Blog/blog.jpg" alt="#">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Blog/blog.jpg" alt="#">
                                 </a>
                                 <span class="posted-on"><strong>23</strong>JUN</span>
                             </div>
@@ -56,7 +56,7 @@
                                 <br>
                                 <h2>relaxing & travel in our hotel</h2>
                                 <a href="#" title="" class="hover-zoom-1">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-2.jpg" alt="#" class="aligncenter img-responsive">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-2.jpg" alt="#" class="aligncenter img-responsive">
                                 </a>
                                 <br>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. But also the leap into electronic typesetting, remaining essentially unchanged. It was <a href="#" title="">popularised </a> in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software </p>
@@ -83,7 +83,7 @@
                             <ul class="commentlist">
                                 <li>
                                     <div class="comment-body">
-                                        <a class="comment-avatar"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-7.jpg" alt="#" ></a>
+                                        <a class="comment-avatar"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-7.jpg" alt="#" ></a>
                                         <h4 class="comment-subject">Lorem Ipsum is simply dummy text of the printing</h4>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
                                         <span class="comment-meta">
@@ -96,7 +96,7 @@
                                 </li>
                                 <li>
                                     <div class="comment-body">
-                                        <a class="comment-avatar"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-8.jpg" alt="#"></a>
+                                        <a class="comment-avatar"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-8.jpg" alt="#"></a>
                                         <h4 class="comment-subject">Lorem Ipsum is simply dummy text of the printing</h4>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
                                         <span class="comment-meta">
@@ -108,7 +108,7 @@
                                         <ul class="children">
                                             <li>
                                                 <div class="comment-body">
-                                                    <a class="comment-avatar"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-9.jpg" alt="#"></a>
+                                                    <a class="comment-avatar"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-9.jpg" alt="#"></a>
                                                     <h4 class="comment-subject">Lorem Ipsum is simply dummy text of the printing</h4>
                                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College.</p>
                                                     <span class="comment-meta">
@@ -124,7 +124,7 @@
                                 </li>
                                 <li>
                                     <div class="comment-body">
-                                        <a class="comment-avatar"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-10.jpg" alt="#"></a>
+                                        <a class="comment-avatar"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-10.jpg" alt="#"></a>
                                         <h4 class="comment-subject">Lorem Ipsum is simply dummy text of the printing</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                                         <span class="comment-meta">
@@ -228,7 +228,7 @@
                                 <!-- ITEM -->
                                 <div class="item">
                                     <div class="img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#">
                                     </div>
                                     <div class="text">
                                         <h2>Luxury ROOM</h2>
@@ -240,7 +240,7 @@
                                 <!-- ITEM -->
                                 <div class="item">
                                     <div class="img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#">
                                     </div>
                                     <div class="text">
                                         <h2>Luxury ROOM</h2>
@@ -252,7 +252,7 @@
                                 <!-- ITEM -->
                                 <div class="item">
                                     <div class="img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#">
                                     </div>
                                     <div class="text">
                                         <h2>Luxury ROOM</h2>
@@ -318,7 +318,7 @@
                             <ul>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-3.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-3.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">Relaxing &amp; travel in our hotel</a>
@@ -327,7 +327,7 @@
                                 </li>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-4.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-4.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">New kind of chicken food for dinner</a>
@@ -336,7 +336,7 @@
                                 </li>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-5.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-5.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">One night wedding with jessia &amp; robet</a>
@@ -345,7 +345,7 @@
                                 </li>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-6.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-6.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">Fishing with Skyline hotel</a>

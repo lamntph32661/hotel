@@ -13,20 +13,20 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <!-- CSS LIBRARY -->
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="">
 
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/gallery.css">
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/vit-gallery.css">
-    <link rel="shortcut icon" type="text/css" href="/app/views/client/landing.engotheme.com/images/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="/app/views/client/landing.engotheme.com/css/bootstrap-select.min.css">
-    <link rel="stylesheet" type="text/css" href="/app/views/client/cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/vit-gallery.css">
+    <link rel="shortcut icon" type="text/css" href="/App/views/client/landing.engotheme.com/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/App/views/client/landing.engotheme.com/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="/App/views/client/cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css" />
 
     <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="/app/views/client/landing.engotheme.com/css/styles.css">
+    <link rel="stylesheet" href="/App/views/client/landing.engotheme.com/css/styles.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
                         
                             <li class="dropdown"><a href="/userinfo/{{$_SESSION['UserID']}}" title="LOGIN" class="dropdown-toggle"><?php echo $_SESSION['UserName']; ?></a>
                                 <?php if (isset($_SESSION['Roles'])&&$_SESSION['Roles']==0) :?>
-                        <li class="dropdown"><a href="/admin" title="REGISTER" class="dropdown-toggle">Login Admin</a></li>
+                        <li class="dropdown"><a href="/Admin" title="REGISTER" class="dropdown-toggle">Login Admin</a></li>
                         <?php endif; ?>
                                 <li class="dropdown"><a href="/logout" title="REGISTER" class="dropdown-toggle">Logout</a></li>
                             </li>
@@ -86,7 +86,7 @@
                             <span class="icon-bar "></span>
                             <span class="icon-bar "></span>
                         </button>
-                        <a class="navbar-brand" href="/" title="Skyline"><img src="/app/views/client/landing.engotheme.com/images/Home-1/sky-logo-header.png" alt="#"></a>
+                        <a class="navbar-brand" href="/" title="Skyline"><img src="/App/views/client/landing.engotheme.com/images/Home-1/sky-logo-header.png" alt="#"></a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">

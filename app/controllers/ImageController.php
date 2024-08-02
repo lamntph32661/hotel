@@ -9,14 +9,14 @@ class ImageController extends BaseController
     function listAdmin($message='') {
         $list=ImageModel::all();
         $roomType=RoomTypeModel::all();
-        return $this->render('admin\image\list',compact('list','roomType','message'));
+        return $this->render('Admin\image\list',compact('list','roomType','message'));
     }
     function renderListAdmin($message='')  {
         return $this->templateRenderAdmin('listAdmin',[$message]);
     }
     function addForm($data=[],$checkData=[]) {
         $roomType=RoomTypeModel::all();
-        return $this->render('admin\image\add',compact('roomType','data','checkData'));
+        return $this->render('Admin\image\add',compact('roomType','data','checkData'));
     }
     function renderAdd($data=[],$checkData=[])  {
         return $this->templateRenderAdmin('addForm',[$data,$checkData]);
@@ -46,7 +46,7 @@ class ImageController extends BaseController
     function updateImage($id,$checkData=[])  {
         $roomType=RoomTypeModel::all();
         $image=ImageModel::find($id);
-        return $this->render('admin\image\update',compact('roomType','image','checkData'));
+        return $this->render('Admin\image\update',compact('roomType','image','checkData'));
     }
     function renderUpdateImage($id,$checkData=[]) {
         return $this->templateRenderAdmin('updateImage',[$id,$checkData]);

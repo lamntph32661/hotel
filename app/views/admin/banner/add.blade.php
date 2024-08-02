@@ -4,7 +4,7 @@
       <div class="card-header">
         <h3 class="card-title">Thêm loại phòng</h3>
       </div>
-      <form class="ml-5" action="/admin/banner/add/post" method="POST" enctype="multipart/form-data">
+      <form class="ml-5" action="/Admin/banner/add/post" method="POST" enctype="multipart/form-data">
       <div class="card-body">
         {{$message??''}}
           <div class="form-group">
@@ -20,7 +20,7 @@
           <div class="card-footer">
             <input type="submit" class="btn btn-primary"  value="Submit">
             <input class="btn btn-secondary" type="reset" value="Nhập lại">
-            <a href="/admin/banner/type" class="btn btn-success">Danh sách</a>
+            <a href="/Admin/banner/type" class="btn btn-success">Danh sách</a>
           </div>
       </form>
       <?php

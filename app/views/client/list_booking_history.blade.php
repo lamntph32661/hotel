@@ -66,7 +66,7 @@
             
             <div class="wrap-item ">
                 <div class="img">
-                    <img src="/app/views/client/landing.engotheme.com/images/Room/room-35.jpg" alt="#">
+                    <img src="/App/views/client/landing.engotheme.com/images/Room/room-35.jpg" alt="#">
                 </div>
                 <div class="text-1">
                     <h2 class="h2-rooms">FAMILY ROOM</h2>
@@ -83,7 +83,7 @@
             </div>
             <div class="wrap-item ">
                 <div class="img">
-                    <img src="/app/views/client/landing.engotheme.com/images/Room/room-36.jpg" alt="#">
+                    <img src="/App/views/client/landing.engotheme.com/images/Room/room-36.jpg" alt="#">
                 </div>
                 <div class="text">
                     <h2 class="h2-rooms">COUPLE ROOM</h2>
@@ -100,7 +100,7 @@
             </div>
             <div class="wrap-item ">
                 <div class="img">
-                    <img src="/app/views/client/landing.engotheme.com/images/Room/room-37.jpg" alt="#">
+                    <img src="/App/views/client/landing.engotheme.com/images/Room/room-37.jpg" alt="#">
                 </div>
                 <div class="text-1">
                     <h2 class="h2-rooms">STANDARD ROOM</h2>

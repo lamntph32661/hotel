@@ -213,12 +213,12 @@
                                     <label class="label-radio">
                                         <input type="radio" class="input-radio" name="chose-bank"> Credit Card
                                     </label>
-                                    <a href="#" title=""><img src="/app/views/client/landing.engotheme.com/images/Reservation/american.jpg" alt="#"></a>
-                                    <a href="#" title=""><img src="/app/views/client/landing.engotheme.com/images/Reservation/mastercard.jpg" alt="#"> </a>
-                                    <a href="#" title=""><img src="/app/views/client/landing.engotheme.com/images/Reservation/o.jpg" alt="#"></a>
-                                    <a href="#" title=""><img src="/app/views/client/landing.engotheme.com/images/Reservation/paypal.jpg" alt="#"></a>
-                                    <a href="#" title=""><img src="/app/views/client/landing.engotheme.com/images/Reservation/visa.jpg" alt="#"></a>
-                                    <a href="#" title=""><img src="/app/views/client/landing.engotheme.com/images/Reservation/2co.jpg" alt="#"></a>
+                                    <a href="#" title=""><img src="/App/views/client/landing.engotheme.com/images/Reservation/american.jpg" alt="#"></a>
+                                    <a href="#" title=""><img src="/App/views/client/landing.engotheme.com/images/Reservation/mastercard.jpg" alt="#"> </a>
+                                    <a href="#" title=""><img src="/App/views/client/landing.engotheme.com/images/Reservation/o.jpg" alt="#"></a>
+                                    <a href="#" title=""><img src="/App/views/client/landing.engotheme.com/images/Reservation/paypal.jpg" alt="#"></a>
+                                    <a href="#" title=""><img src="/App/views/client/landing.engotheme.com/images/Reservation/visa.jpg" alt="#"></a>
+                                    <a href="#" title=""><img src="/App/views/client/landing.engotheme.com/images/Reservation/2co.jpg" alt="#"></a>
                                 </li>
                             </ul>
                             <button class="btn btn-room btn4">PLACE ORDER</button>

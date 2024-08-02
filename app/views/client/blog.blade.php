@@ -26,7 +26,7 @@
                         <!-- POST ITEM -->
                         <article class="post">
                             <div class="entry-media">
-                                <a href="#" class="post-thumbnail hover-zoom"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-11.jpg" alt="#"></a>
+                                <a href="#" class="post-thumbnail hover-zoom"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-11.jpg" alt="#"></a>
                                 <span class="posted-on"><strong>23</strong>JUN</span>
                             </div>
                             <div class="entry-header">
@@ -72,10 +72,10 @@
                                 <div class="section-slider">
                                     <div id="index12" class="owl-carousel  owl-theme">
                                         <div class="item">
-                                            <img alt="Third slide" src="/app/views/client/landing.engotheme.com/images/Blog/blog-12.jpg" class="img-responsive">
+                                            <img alt="Third slide" src="/App/views/client/landing.engotheme.com/images/Blog/blog-12.jpg" class="img-responsive">
                                         </div>
                                         <div class="item">
-                                            <img alt="Third slide" src="/app/views/client/landing.engotheme.com/images/Blog/blog-12.jpg" class="img-responsive">
+                                            <img alt="Third slide" src="/App/views/client/landing.engotheme.com/images/Blog/blog-12.jpg" class="img-responsive">
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                         <!-- POST ITEM -->
                         <article class="post">
                             <div class="entry-media">
-                                <a href="#" class=" hover-zoom"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-13.jpg" alt="#"></a>
+                                <a href="#" class=" hover-zoom"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-13.jpg" alt="#"></a>
                                 <span class="posted-on"><strong>16</strong>JUN</span>
                             </div>
                             <div class="entry-header">
@@ -163,7 +163,7 @@
                         <!-- POST ITEM -->
                         <article class="post">
                             <div class="entry-media ">
-                                <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-14.jpg" alt="#"></a>
+                                <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-14.jpg" alt="#"></a>
                                 <div class="section-video ">
                                     <a class="btn-play" href="#modal-video-1"></a>
                                     <div id="modal-video-1" class="modal-video" data-video="https://www.youtube.com/embed/ibuUmMhD2Pg" data-query-string="ecver=1&autoplay=1&showinfo=0&controls=0&modestbranding=1">
@@ -288,7 +288,7 @@
                                 <!-- ITEM -->
                                 <div class="item">
                                     <div class="img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#" class="img-responsive">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#" class="img-responsive">
                                     </div>
                                     <div class="text">
                                         <h2>Luxury ROOM</h2>
@@ -300,7 +300,7 @@
                                 <!-- ITEM -->
                                 <div class="item">
                                     <div class="img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#" class="img-responsive">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#" class="img-responsive">
                                     </div>
                                     <div class="text">
                                         <h2>Luxury ROOM</h2>
@@ -312,7 +312,7 @@
                                 <!-- ITEM -->
                                 <div class="item">
                                     <div class="img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#" class="img-responsive">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Blog/blog-1.jpg" alt="#" class="img-responsive">
                                     </div>
                                     <div class="text">
                                         <h2>Luxury ROOM</h2>
@@ -378,7 +378,7 @@
                             <ul>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-3.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-3.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">Relaxing &amp; travel in our hotel</a>
@@ -387,7 +387,7 @@
                                 </li>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-4.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-4.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">New kind of chicken food for dinner</a>
@@ -396,7 +396,7 @@
                                 </li>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-5.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-5.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">One night wedding with jessia &amp; robet</a>
@@ -405,7 +405,7 @@
                                 </li>
                                 <li>
                                     <div class="img">
-                                        <a href="#"><img src="/app/views/client/landing.engotheme.com/images/Blog/blog-6.jpg" alt="#"></a>
+                                        <a href="#"><img src="/App/views/client/landing.engotheme.com/images/Blog/blog-6.jpg" alt="#"></a>
                                     </div>
                                     <div class="text">
                                         <a href="#">Fishing with Skyline hotel</a>

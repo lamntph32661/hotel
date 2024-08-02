@@ -16,7 +16,7 @@ class BaseController
     public function render($view, $data = [])
     {
         // đường dẫn chứa view
-        $viewDir = "./app/views";
+        $viewDir = "./App/Views";
         $cache = "./cache";
         $blade = new BladeOne($viewDir, $cache, BladeOne::MODE_DEBUG);
         echo $blade->run($view, $data);
@@ -30,11 +30,11 @@ class BaseController
         }
         
         
-        return $this->render('admin\headerAdmin',compact('user'));
+        return $this->render('Admin\headerAdmin',compact('user'));
 
     }
     public function footer() {
-        return $this->render('admin\footerAdmin');
+        return $this->render('Admin\footerAdmin');
 
     }
     function templateRenderAdmin($content,$param=[]) {
@@ -46,10 +46,10 @@ class BaseController
     
     public function headerClient() {
        $infoUser=[];
-        return $this->render('client\header',compact('infoUser'));
+        return $this->render('Client\header',compact('infoUser'));
     }
     public function footerClient() {
-        return $this->render('client\footer');
+        return $this->render('Client\footer');
     }
     function templateRenderClient($content,$param=[]) {
         $header=$this->headerClient();

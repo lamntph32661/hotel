@@ -7,7 +7,7 @@ class UserController extends BaseController
 {
     function listUser()  {
         $list=UserModel::all();
-        return $this->render('admin\user\list',compact('list'));
+        return $this->render('Admin\user\list',compact('list'));
     }
     function renderListUser()  {
         return $this->templateRenderAdmin('listUser');
@@ -18,7 +18,7 @@ class UserController extends BaseController
     }
     function info($id,$checkData=[],$message='') {
         $info=UserModel::find($id);
-        return $this->render('client\info',compact('info','checkData','message'));
+        return $this->render('Client\info',compact('info','checkData','message'));
     }
     function renderInfo($id,$checkData=[],$message='')  {
         return $this->templateRenderClient('info',[$id,$checkData,$message]);

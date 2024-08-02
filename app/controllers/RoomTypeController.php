@@ -10,7 +10,7 @@ class RoomTypeController extends BaseController
     {
         
         $list = RoomTypeModel::all();
-        return $this->render('admin\roomtype\list', compact('list','message'));
+        return $this->render('Admin\roomtype\list', compact('list','message'));
     }
     function renderList($message='')
     {
@@ -19,7 +19,7 @@ class RoomTypeController extends BaseController
 
     function add($message = '', $checkData = [], $data = [])
     {
-        return $this->render('admin\roomtype\add', compact('message', 'checkData', 'data'));
+        return $this->render('Admin\roomtype\add', compact('message', 'checkData', 'data'));
     }
 
     function renderAdd($message = '', $checkData = [], $data = [])
@@ -107,7 +107,7 @@ class RoomTypeController extends BaseController
     function UpdateRoomTypeForm($id, $message = '', $checkData = [])
     {
         $roomtype = RoomTypeModel::find($id);
-        return $this->render('admin\roomtype\update', compact('message', 'checkData', 'roomtype'));
+        return $this->render('Admin\roomtype\update', compact('message', 'checkData', 'roomtype'));
     }
     function renderUpdateRoomType($id,$message = '', $checkData = [])
     {

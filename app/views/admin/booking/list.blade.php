@@ -10,7 +10,7 @@
                       <div class="input-group input-group-sm" style="width: 150px;">
                         
                         <div class="input-group-append">
-                          <a href="/admin/booking/history"><button class="btn" style="border: 1px solid white; color: aliceblue">Lịch sử</button></a>
+                          <a href="/Admin/booking/history"><button class="btn" style="border: 1px solid white; color: aliceblue">Lịch sử</button></a>
                         </div>
                       </div>
                     </div>
@@ -43,7 +43,7 @@
                         <td>{{$item->CheckOutDate}}</td>
                         <td>{{$item->TotalAmount}}</td>
                         <td>{{$item->BookingStatus}}</td>
-                        <td><a href="/admin/booking/update/{{$item->ID}}" ><button class="btn btn-primary">Cập nhật</button></a> <a href="/admin/room/type/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
+                        <td><a href="/Admin/booking/update/{{$item->ID}}" ><button class="btn btn-primary">Cập nhật</button></a> <a href="/Admin/room/type/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
                         </tr>
                         @endforeach
                       </tbody>

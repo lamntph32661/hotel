@@ -38,8 +38,8 @@
                         <td>{{$item->id}}</td>
                         <td>{{$item->Name}}</td>
                         <td><img src="/uploads/{{$item->Image}}" alt="" height="100px"></td>
-                        <td><a href="/admin/banner/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> 
-                          <a href="/admin/banner/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
+                        <td><a href="/Admin/banner/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> 
+                          <a href="/Admin/banner/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
                         </tr>
                         @endforeach
                       </tbody>
@@ -54,6 +54,6 @@
                   <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-              </div><a href="/admin/banner/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
+              </div><a href="/Admin/banner/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
             </div>
             <!-- /.row --></nav>

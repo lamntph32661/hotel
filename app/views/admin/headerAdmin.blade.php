@@ -7,30 +7,30 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/app/views/admin/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/dist/css/Adminlte.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="/app/views/admin/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="/app/views/Admin/plugins/summernote/summernote-bs4.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="/app/views/admin/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="/app/views/Admin/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -82,7 +82,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="/app/views/admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="/app/views/Admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -98,7 +98,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="/app/views/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="/app/views/Admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -114,7 +114,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="/app/views/admin/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="/app/views/Admin/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -175,7 +175,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="/app/views/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="/app/views/Admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
@@ -184,7 +184,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="/app/views/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/app/views/Admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           @if (isset($_SESSION['UserName'])&&$user[0]->Roles==0)
@@ -248,7 +248,7 @@
           </li> --}}
           @if (isset($_SESSION['UserName'])&&$user[0]->Roles==0)
           <li class="nav-item">
-            <a href="/admin/room/type" class="nav-link">
+            <a href="/Admin/room/type" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Loại phòng
@@ -257,7 +257,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/room" class="nav-link">
+            <a href="/Admin/room" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Phòng
@@ -266,7 +266,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/booking" class="nav-link">
+            <a href="/Admin/booking" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Booking
@@ -275,7 +275,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/checkinout/list" class="nav-link">
+            <a href="/Admin/checkinout/list" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Check in-out
@@ -284,7 +284,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/user/list" class="nav-link">
+            <a href="/Admin/user/list" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 User
@@ -292,7 +292,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/banner/list" class="nav-link">
+            <a href="/Admin/banner/list" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Banner
@@ -300,7 +300,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/image/list" class="nav-link">
+            <a href="/Admin/image/list" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Image
@@ -319,7 +319,7 @@
               @else
               
               <p style="color: aliceblue">
-                Vui lòng đăng nhập bằng tài khoản<br> ADMIN để sử dụng các chức năng
+                Vui lòng đăng nhập bằng tài khoản<br> Admin để sử dụng các chức năng
                 
               </p>
             
@@ -828,7 +828,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+            <a href="https://Adminlte.io/docs/3.1/" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Documentation</p>
             </a>

@@ -43,7 +43,7 @@
                         <td><img src="/uploads/{{$item->Image}}" alt="" height="100px"></td>
                         
 
-                        <td><a href="/admin/image/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> <a href="/admin/image/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
+                        <td><a href="/Admin/image/update/{{$item->id}}" ><button class="btn btn-primary">Cập nhật</button></a> <a href="/Admin/image/delete/{{$item->id}}" onclick="return confirm('Bạn có muốn xóa')"><button class="btn btn-danger">xóa</button></a></td>
                         </tr>
                         @endforeach
                       </tbody>
@@ -58,6 +58,6 @@
                   <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-              </div><a href="/admin/image/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
+              </div><a href="/Admin/image/add"><input  class="btn btn-primary" type="button" value="Thêm mới" style="margin-left: 6px;"></a>
             </div>
             <!-- /.row --></nav>

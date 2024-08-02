@@ -13,7 +13,7 @@ class BookController extends BaseController
 {
     function Book()
     {
-        return $this->render('client\order');
+        return $this->render('Client\order');
     }
     function checkRoom()
     {
@@ -25,7 +25,7 @@ class BookController extends BaseController
         } else {
             $list = RoomModel::innerJoin3();
         }
-        return $this->render('client\step2_booking', compact('list'));
+        return $this->render('Client\step2_booking', compact('list'));
     }
     function renderCheckRoom()
     {
@@ -81,7 +81,7 @@ class BookController extends BaseController
     function listAdmin()
     {
         $list = BookModel::innerJoinBase('select * from booking where BookingStatus <> "Đã hủy" and BookingStatus <> "Đã check-out" order by id desc');
-        return $this->render('admin\booking\list', compact('list'));
+        return $this->render('Admin\booking\list', compact('list'));
     }
     function renderListAdmin()
     {
@@ -90,7 +90,7 @@ class BookController extends BaseController
     function listAdminHistory()
     {
         $list = BookModel::innerJoinBase('select * from booking where BookingStatus like "Đã hủy" or BookingStatus like "Đã check-out" order by id desc');
-        return $this->render('admin\booking\list_history', compact('list'));
+        return $this->render('Admin\booking\list_history', compact('list'));
     }
     function renderListAdminHistory()
     {
@@ -99,7 +99,7 @@ class BookController extends BaseController
     function updateForm($id)
     {
         $booking = BookModel::find($id);
-        return $this->render('admin\booking\update', compact('booking'));
+        return $this->render('Admin\booking\update', compact('booking'));
     }
     function renderUpdate($id)
     {
@@ -151,21 +151,21 @@ $booking=BookModel::find($id);
     }
     function listBook() {
         $list=RoomModel::innerJoinBase('SELECT booking.*,roomtype.Name, room.RoomNumber FROM `room` INNER JOIN booking ON booking.RoomID=room.id INNER JOIN roomtype on roomtype.id=room.RoomType WHERE booking.UserID='.$_SESSION['UserID'].' AND booking.BookingStatus <> "Đã hủy" AND booking.BookingStatus <> "Đã check-out"  ORDER BY booking.ID DESC');
-        return $this->render('client\list_booking',compact('list'));
+        return $this->render('Client\list_booking',compact('list'));
     }
     function renderListBook() {
         return $this->templateRenderClient('listBook');
     }
     function listBookHistory() {
         $list=RoomModel::innerJoinBase('SELECT booking.*,roomtype.Name, room.RoomNumber FROM `room` INNER JOIN booking ON booking.RoomID=room.id INNER JOIN roomtype on roomtype.id=room.RoomType WHERE booking.UserID='.$_SESSION['UserID'].' AND (booking.BookingStatus like "Đã hủy" OR booking.BookingStatus like "Đã check-out")  ORDER BY booking.ID DESC');
-        return $this->render('client\list_booking_history',compact('list'));
+        return $this->render('Client\list_booking_history',compact('list'));
     }
     function renderListBookHistory() {
         return $this->templateRenderClient('listBookHistory');
     }
     function viewBooking($id,$checkData=[])  {
         $booking=RoomModel::innerJoinBase('SELECT booking.*,roomtype.Name,roomtype.Image, room.RoomNumber FROM `room` INNER JOIN booking ON booking.RoomID=room.id INNER JOIN roomtype on roomtype.id=room.RoomType WHERE booking.UserID='.$_SESSION['UserID'].' AND booking.ID='.$id.' ORDER BY booking.ID DESC;');
-        return $this->render('client\booking_detail',compact('booking','checkData'));
+        return $this->render('Client\booking_detail',compact('booking','checkData'));
     }
     function renderViewBook($id,$checkData=[])  {
         return $this->templateRenderClient('viewBooking',[$id,$checkData]);

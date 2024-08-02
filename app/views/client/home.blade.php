@@ -11,7 +11,7 @@
         @endforeach
         
         {{-- <div class="item">
-            <img alt="Third slide" src="/app/views/client/landing.engotheme.com/images/Home-2/Slider-v2.jpg" class="img-responsive">
+            <img alt="Third slide" src="/App/views/client/landing.engotheme.com/images/Home-2/Slider-v2.jpg" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption ">
                     <h1 class="v2">Enjoy a Luxury  Experience</h1>
@@ -26,14 +26,14 @@
                 <label>Arrival Date </label>
                 <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
                     <input class="form-control" type="text">
-                    <span class="input-group-addon"><img src="/app/views/client/landing.engotheme.com/images/Home-1/date-icon.png" alt="#"></span>
+                    <span class="input-group-addon"><img src="/App/views/client/landing.engotheme.com/images/Home-1/date-icon.png" alt="#"></span>
                 </div>
             </div>
             <div class="departure date-title ">
                 <label>Departure Date </label>
                 <div id="datepickeri" class="input-group date" data-date-format="dd-mm-yyyy">
                     <input class="form-control" type="text">
-                    <span class="input-group-addon"><img src="/app/views/client/landing.engotheme.com/images/Home-1/date-icon.png" alt="#"></span>
+                    <span class="input-group-addon"><img src="/App/views/client/landing.engotheme.com/images/Home-1/date-icon.png" alt="#"></span>
                 </div>
             </div>
             <div class="adults date-title ">
@@ -115,7 +115,7 @@
                         {{-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Double Room</h4>
@@ -126,7 +126,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Family Room</h4>
@@ -137,7 +137,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Deluxe Room</h4>
@@ -148,7 +148,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Single Room</h4>
@@ -159,7 +159,7 @@
                         <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Presidential Room</h4>
@@ -172,7 +172,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Luxury Room</h4>
@@ -183,7 +183,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Double Room</h4>
@@ -194,7 +194,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Family Room</h4>
@@ -205,7 +205,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Deluxe Room</h4>
@@ -216,7 +216,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Single Room</h4>
@@ -227,7 +227,7 @@
                         <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Presidential Room</h4>
@@ -240,7 +240,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Luxury Room</h4>
@@ -251,7 +251,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Double Room</h4>
@@ -262,7 +262,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Family Room</h4>
@@ -273,7 +273,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Deluxe Room</h4>
@@ -284,7 +284,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Single Room</h4>
@@ -295,7 +295,7 @@
                         <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                             <div class="wrap-box">
                                 <div class="box-img">
-                                    <img src="/app/views/client/landing.engotheme.com/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
+                                    <img src="/App/views/client/landing.engotheme.com/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
                                 </div>
                                 <div class="rooms-content">
                                     <h4 class="sky-h4">Presidential Room</h4>
@@ -327,12 +327,12 @@
             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7 ">
                 <div class="about-img">
                     <div class="img-1">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-3.jpg" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-3.jpg" class="img-responsive" alt="Image">
                         <div class="img-2">
-                            <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-1.jpg" class="img-responsive" alt="Image">
+                            <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-1.jpg" class="img-responsive" alt="Image">
                         </div>
                         <div class="img-3">
-                            <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-2.jpg" class="img-responsive" alt="Image">
+                            <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-2.jpg" class="img-responsive" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -348,7 +348,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-1.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-1.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">Master Bedrooms</h6>
                 </div>
@@ -356,7 +356,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-2.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-2.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">Sea View Balcony</h6>
                 </div>
@@ -364,7 +364,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-3.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-3.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">Pool & Spa</h6>
                 </div>
@@ -372,7 +372,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-4.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-4.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">Wifi Coverage</h6>
                 </div>
@@ -380,7 +380,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">AwESOME pACKAGES</h6>
                 </div>
@@ -388,7 +388,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-6.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-6.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">cLEANING eVERDAY</h6>
                 </div>
@@ -396,7 +396,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-7.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-7.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">bUTFFET Breakfast</h6>
                 </div>
@@ -404,7 +404,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/about-icon-8.png" class="img-responsive" alt="Image">
+                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/about-icon-8.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">Airport Taxi</h6>
                 </div>
@@ -420,19 +420,19 @@
             <div class="container">
                 <div id="testimonials" class="owl-carousel owl-theme">
                     <div class="item ">
-                        <div class="img-testimonials"><img src="/app/views/client/landing.engotheme.com/images/Home-1/about-testimonials-img.png" alt="#"></div>
+                        <div class="img-testimonials"><img src="/App/views/client/landing.engotheme.com/images/Home-1/about-testimonials-img.png" alt="#"></div>
                         <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing on the cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
                         <h5 class="sky-h5">JULIA ROSE</h5>
                         <p class="testimonials-p1">From Los Angeles, California</p>
                     </div>
                     <div class="item">
-                        <div class="img-testimonials"><img src="/app/views/client/landing.engotheme.com/images/Home-1/about-testimonials-img.png" alt="#"></div>
+                        <div class="img-testimonials"><img src="/App/views/client/landing.engotheme.com/images/Home-1/about-testimonials-img.png" alt="#"></div>
                         <p class="testimonials-p"><span>“</span>​‌ Thisis the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing onthe cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
                         <h5 class="sky-h5">JULIA ROSE</h5>
                         <p class="testimonials-p1">From Los Angeles, California</p>
                     </div>
                     <div class="item">
-                        <div class="img-testimonials"><img src="/app/views/client/landing.engotheme.com/images/Home-1/about-testimonials-img.png" alt="#"></div>
+                        <div class="img-testimonials"><img src="/App/views/client/landing.engotheme.com/images/Home-1/about-testimonials-img.png" alt="#"></div>
                         <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing on the cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
                         <h5 class="sky-h5">JULIA ROSE</h5>
                         <p class="testimonials-p1">From Los Angeles, California</p>
@@ -451,7 +451,7 @@
         <div id="events-v2" class="owl-carousel owl-theme">
             <div class="item ">
                 <div class="events-item">
-                    <div class="events-img"><img src="/app/views/client/landing.engotheme.com/images/Home-1/Our-Events-1.jpg" class="img-responsive" alt="Image"></div>
+                    <div class="events-img"><img src="/App/views/client/landing.engotheme.com/images/Home-1/Our-Events-1.jpg" class="img-responsive" alt="Image"></div>
                     <div class="events-content">
                         <a href="#" title="">
                             <p class="sky-p">EVENTS</p>
@@ -462,7 +462,7 @@
             </div>
             <div class="item">
                 <div class="events-item">
-                    <div class="events-img"><img src="/app/views/client/landing.engotheme.com/images/Home-1/Our-Events-2.jpg" class="img-responsive" alt="Image"></div>
+                    <div class="events-img"><img src="/App/views/client/landing.engotheme.com/images/Home-1/Our-Events-2.jpg" class="img-responsive" alt="Image"></div>
                     <div class="events-content">
                         <a href="#" title="">
                             <p class="sky-p">EVENTS</p>
@@ -473,7 +473,7 @@
             </div>
             <div class="item">
                 <div class="events-item">
-                    <div class="events-img"><img src="/app/views/client/landing.engotheme.com/images/Home-1/Our-Events-3.jpg" class="img-responsive" alt="Image"></div>
+                    <div class="events-img"><img src="/App/views/client/landing.engotheme.com/images/Home-1/Our-Events-3.jpg" class="img-responsive" alt="Image"></div>
                     <div class="events-content">
                         <a href="#" title="">
                             <p class="sky-p">EVENTS</p>
@@ -557,11 +557,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-1.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-1.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main " title>
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-1-1.jpg" data-littlelightbox-group="gallery" title="Luxury Room view all"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-1-1.jpg" data-littlelightbox-group="gallery" title="Luxury Room view all"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -569,11 +569,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="HIHI"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="HIHI"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -581,11 +581,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-3.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-3.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-3-3.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-3-3.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -593,11 +593,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-4.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-4.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-4-4.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-4-4.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -605,11 +605,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-5.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-5.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-5-5.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-5-5.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -617,11 +617,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-6-6.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-6-6.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -629,11 +629,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-7-7.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-7-7.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -641,11 +641,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-8-8.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-8-8.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -659,11 +659,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -671,11 +671,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-3-3.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-3-3.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -683,11 +683,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-4-4.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-4-4.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -701,11 +701,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -713,11 +713,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-6-6.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-6-6.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -731,11 +731,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-3.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-3.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -743,11 +743,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-4.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-4.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -755,11 +755,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-5.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-5.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -767,11 +767,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -779,11 +779,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -791,11 +791,11 @@
                             <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="/app/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
+                                        <img src="/App/views/client/landing.engotheme.com/images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
                                     </div>
                                     <div class="gallery-box-main">
                                         <div class="gallery-icon">
-                                            <a class="lightbox " href="/app/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            <a class="lightbox " href="/App/views/client/landing.engotheme.com/images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                         </div>
                                     </div>
                                 </div>

@@ -16,7 +16,7 @@ class HomeController extends BaseController
             'SELECT * FROM roomtype;'
         );
 
-        return $this->render('client\home', compact('rooms', 'banners'));
+        return $this->render('Client\home', compact('rooms', 'banners'));
     }
 
 
@@ -27,7 +27,7 @@ class HomeController extends BaseController
     function room()
     {
         $detail = RoomTypeModel::all();
-        return $this->render('client\room', compact('detail'));
+        return $this->render('Client\room', compact('detail'));
     }
     public function renderRoom()
     {
@@ -37,7 +37,7 @@ class HomeController extends BaseController
     function signup($err = '',$data=[],$checkData=[])
     {
 
-        return $this->render('client\signup', compact('err','data','checkData'));
+        return $this->render('Client\signup', compact('err','data','checkData'));
     }
     function renderSignup($err = '',$data=[],$checkData=[])
     {
@@ -95,7 +95,7 @@ class HomeController extends BaseController
     function login($err = '')
     {
 
-        return $this->render('client\login', compact('err'));
+        return $this->render('Client\login', compact('err'));
     }
     public function renderLogin($err = '')
     {
@@ -135,7 +135,7 @@ class HomeController extends BaseController
         $image=ImageModel::where('RoomType','like',$id)->get();
         $oneroom = RoomModel::innerJoinBase('SELECT room.id,roomtype.id as RoomTypeID, room.RoomNumber, room.Status FROM room INNER JOIN roomtype ON room.RoomType=roomtype.id WHERE roomtype.id=' . $id . ' and room.Status=1 LIMIT 1');
 
-        return $this->render('client\room_detail', compact('detail', 'another','image', 'oneroom'));
+        return $this->render('Client\room_detail', compact('detail', 'another','image', 'oneroom'));
     }
     public function renderRoomDetail($id)
     {
@@ -143,7 +143,7 @@ class HomeController extends BaseController
     }
     function homeAdmin()
     {
-        return $this->render('admin\homeAdmin');
+        return $this->render('Admin\homeAdmin');
     }
     public function renderHomeAdmin()
     {
@@ -171,7 +171,7 @@ class HomeController extends BaseController
 
     // public function listPro()
     // {
-    //     return $this->render('admins\products\ListProductClient');
+    //     return $this->render('Admins\products\ListProductClient');
     // }
     // public function renderListPro()
     // {
@@ -179,7 +179,7 @@ class HomeController extends BaseController
     // }
     // public function blog()
     // {
-    //     return $this->render('blogs\clients\Blog');
+    //     return $this->render('blogs\Clients\Blog');
     // }
     // public function renderBlog()
     // {
@@ -187,7 +187,7 @@ class HomeController extends BaseController
     // }
     // public function singleBlog()
     // {
-    //     return $this->render('blogs\clients\SingleBlog');
+    //     return $this->render('blogs\Clients\SingleBlog');
     // }
     // public function renderSingleBlog()
     // {
@@ -195,7 +195,7 @@ class HomeController extends BaseController
     // }
     // public function cart()
     // {
-    //     return $this->render('carts\clients\Cart');
+    //     return $this->render('carts\Clients\Cart');
     // }
     // public function renderCart()
     // {
